@@ -1,0 +1,26 @@
+/* Arquivo CSS da aula de ADS - Unipar 2025 */
+/*Reset CSS: importar para zera todas os estilos ja aplicados */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*variaveis */
+/* posso salvar as variaveis, configuraçoes que poden ser usadas no css */
+:root{
+    --primary-color:blue;
+    --font-size: 12px;
+}
+
+/* Conponentes */
+/*O que são componentes: Botões, formularios, input´s, etc... */
+button{
+    background-color: var(--primary-color);/*usando variaveis */
+    font-size: var(--font-size);
+    color: azure;
+    padding: 2%;
+    height: 10%;
+    width: 50%;
+    min-height: 100px;
+    max-width: 500px;
+}
